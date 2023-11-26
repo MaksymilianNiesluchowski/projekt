@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#container {
+    min-height: 100%;
+    position: relative;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+#middle {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.gora {
+    background-color: orange;
+    text-align: center;
+    margin-top: auto;
+    height: 100px;
+    padding: 0px;
+}
+
+.centrum_lewo {
+    background-color: lightblue;
+    margin: auto;
+    height: 800px;
+    width: 33%;
+    padding: 0px;
+    float: left;
+}
+.centrum {
+    background-color: lightblue;
+    text-align: center;
+    margin: auto;
+    height: 800px;
+    width: 34%;
+    padding: 0px;
+    float: left;
+}
+.centrum_prawo {
+    background-color: lightblue;
+    margin: auto auto auto auto;
+    height: 800px;
+    width: 33%;
+    padding: 0px;
+    float: right;
+    text-align: center;
+}
+.stopka {
+    background-color: aqua;
+    margin-bottom: auto;
+    height: 50px;
+}
