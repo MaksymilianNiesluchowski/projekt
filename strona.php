@@ -7,13 +7,16 @@
     <title>Forum gier komputerowych</title>
 </head>
 <body>
-<a href="rocket.php">ROCKET LEAGUE</a>
     <div class="gora">
         <h1>Forum gier komputerowych</h1>
     </div>
     <div class="centrum_lewo">
         <h1>Rocekt League</h1>
     <?php
+    $user = "root";
+    $host = "localhost";
+    $pass = "";
+    $db = "forum internetowe";
     $conn = new mysqli("localhost", "root", "", "forum internetowe") or die("Błąd");
     $wynik = $conn-> query("SELECT * from zagadnienia");
     if($wynik->num_rows > 0){

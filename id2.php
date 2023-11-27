@@ -12,6 +12,10 @@
     <div class="centrum_lewo">
         <h1>Rocekt League</h1>
     <?php
+    $user = "root";
+    $host = "localhost";
+    $pass = "";
+    $db = "forum internetowe";
     $conn = new mysqli("localhost", "root", "", "forum internetowe") or die("Błąd");
     $wynik = $conn-> query("SELECT * from zagadnienia");
     if($wynik->num_rows > 0){
@@ -55,5 +59,3 @@
 </footer>
 </body>
 </html>
-<!-- do poprawy pomyliłem id1 z id2 -->
-<!-- wyświetlanie się wszystkich kolumn bez możliwości wyboru (do poprawy) -->
