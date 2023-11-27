@@ -14,29 +14,8 @@
     </section>
     <section class="kontener">
         <div class="centrum_lewo">
-        <h1>Rocekt League</h1>
-    <?php
-    $user = "root";
-    $host = "localhost";
-    $pass = "";
-    $db = "forum internetowe";
-    $conn = new mysqli("localhost", "root", "", "forum internetowe") or die("Błąd");
-    $wynik = $conn-> query("SELECT * from zagadnienia");
-    if($wynik->num_rows > 0){
-        while( $wiersz = $wynik->fetch_assoc() ){
-            echo "nr " . $wiersz["id"] . "  ";
-            echo "temat: " . $wiersz["tematy"] . "<br>";
-            // echo "<a href='id1.php'>Czytaj więcej</a>" . ";<br>";  
-        }
-    }else{
-        echo "nie ma nic w bazie danych";
-    };
-    $conn->close();
-    ?>
-    <p><a href='id1.php'>Czytaj więcej o temacie 1</a></p>
-    <p><a href='id2.php'>Czytaj więcej o temacie 2</a></p>
-    <p><a href='id3.php'>Czytaj więcej o temacie 3</a></p>
-    <p><a href='strona.php'>Powrót do strony głównej</a><p>
+        <a href="rocket.php">ROCKET LEAGUE</a>
+    
     </div>
 
     <div class="centrum">

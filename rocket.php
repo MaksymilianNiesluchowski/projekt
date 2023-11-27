@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Forum gier komputerowych</title>
 </head>
 <body>
-<div class="gora">
+<section class="kontener">
+    <div class="gora">
         <h1>Forum gier komputerowych</h1>
     </div>
-    <div class="centrum_lewo">
+    </section>
+    <section class="kontener">
+        <div class="centrum_lewo">
         <h1>Rocekt League</h1>
     <?php
+    $user = "root";
+    $host = "localhost";
+    $pass = "";
+    $db = "forum internetowe";
     $conn = new mysqli("localhost", "root", "", "forum internetowe") or die("Błąd");
     $wynik = $conn-> query("SELECT * from zagadnienia");
     if($wynik->num_rows > 0){
@@ -37,10 +45,10 @@
 
     <div class="centrum_prawo">
     </div>
-
-<footer>
+    </section>
+    <section class="kontener">
     <div class="stopka">
     </div>
-</footer>
+
 </body>
 </html>
