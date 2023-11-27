@@ -7,10 +7,13 @@
     <title>Forum gier komputerowych</title>
 </head>
 <body>
+<section class="kontener">
     <div class="gora">
         <h1>Forum gier komputerowych</h1>
     </div>
-    <div class="centrum_lewo">
+    </section>
+    <section class="kontener">
+        <div class="centrum_lewo">
         <h1>Rocekt League</h1>
     <?php
     $user = "root";
@@ -42,11 +45,10 @@
 
     <div class="centrum_prawo">
     </div>
-
-<footer>
+    </section>
+    <section class="kontener">
     <div class="stopka">
     </div>
-</footer>
 
 </body>
 </html>
