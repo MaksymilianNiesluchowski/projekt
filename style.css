@@ -3,7 +3,7 @@
     font-family: georgia;
 }
 .gora {
-    background-color: #B3BC6D ;
+    background-color: #bc6d7a ;
     height: 100px;
     width: 100%;
     font-size:130% ;
@@ -14,8 +14,8 @@
 
 .centrum_lewo {
     font-family: georgia;
-    background-color: #77EE9C ;
-    height: 400px;
+    background-color: #FFFFCE ;
+    height: 680px;
     width: 23%;
     font-size: 130%;
     text-align: center;
@@ -23,7 +23,7 @@
 }
 .centrum {
     font-family: georgia;
-    height: 400px;  
+    height: 680px;  
     width: 48%;
     text-align: center;
     background-color:#FFFFCE;
@@ -31,15 +31,15 @@
 }
 .centrum_prawo {
     font-family: georgia;
-    background-color: #77EE9C;
-    height: 400px;
+    background-color: #FFFFCE;
+    height: 680px;
         width: 30%; 
         font-size: 130%;
         text-align: center;
         float:right;
 }
 .stopka {
-    background-color: #B3BC6D;
+    background-color: #bc6d7a;
     height: 100px;   
     text-align: center;
     width: 100%;
