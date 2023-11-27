@@ -7,6 +7,7 @@
     <title>Forum gier komputerowych</title>
 </head>
 <body>
+<a href="rocket.php">ROCKET LEAGUE</a>
     <div class="gora">
         <h1>Forum gier komputerowych</h1>
     </div>
