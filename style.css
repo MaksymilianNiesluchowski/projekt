@@ -3,18 +3,18 @@
     font-family: georgia;
 }
 .gora {
-    background-color: #bc6d7a ;
+    background-color: #0000 ;
     height: 100px;
     width: 100%;
     font-size:130% ;
     text-align: center;
     padding: 4px;
-    color:gray;
+    color:black;
 }
 
 .centrum_lewo {
     font-family: georgia;
-    background-color: #FFFFCE ;
+    background-color: #ffffff ;
     height: 680px;
     width: 23%;
     font-size: 130%;
@@ -26,12 +26,12 @@
     height: 680px;  
     width: 48%;
     text-align: center;
-    background-color:#FFFFCE;
+    background-color:#ffffff;
     float:center;
 }
 .centrum_prawo {
     font-family: georgia;
-    background-color: #FFFFCE;
+    background-color: #ffffff;
     height: 680px;
         width: 30%; 
         font-size: 130%;
@@ -39,7 +39,7 @@
         float:right;
 }
 .stopka {
-    background-color: #bc6d7a;
+    background-color: #ffffff;
     height: 100px;   
     text-align: center;
     width: 100%;
