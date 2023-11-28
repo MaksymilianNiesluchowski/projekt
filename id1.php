@@ -6,9 +6,12 @@
     <title>Rocket League</title>
 </head>
 <body>
+<section class="kontener">
 <div class="gora">
         <h1>Co to jest "double tap"?</h1>
     </div>
+    </section>
+    <section class="kontener">
     <div class="centrum_lewo">
         <h1>Rocekt League</h1>
     <?php
@@ -76,9 +79,10 @@
     $conn->close();
     ?>
     </div>
-<footer>
+    </section>
+    <section class="kontener">
     <div class="stopka">
     </div>
-</footer>
+
 </body>
 </html>
