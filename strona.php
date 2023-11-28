@@ -19,10 +19,11 @@
     </div>
 
     <div class="centrum">
-        
+    <a href="cs2.php">COUNTER STRIKE 2</a>
     </div>
 
     <div class="centrum_prawo">
+    <a href="fifa.php">FIFA</a>
     </div>
     </section>
     <section class="kontener">

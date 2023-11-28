@@ -9,7 +9,7 @@
     font-size:130% ;
     text-align: center;
     padding: 4px;
-    color:black;
+    color:#ffffff;
 }
 
 .centrum_lewo {
@@ -20,6 +20,7 @@
     font-size: 130%;
     text-align: center;
     float:left;
+    color:#0000;
 }
 .centrum {
     font-family: georgia;
@@ -28,6 +29,7 @@
     text-align: center;
     background-color:#ffffff;
     float:center;
+    color:#0000;
 }
 .centrum_prawo {
     font-family: georgia;
@@ -37,6 +39,7 @@
         font-size: 130%;
         text-align: center;
         float:right;
+        color:#0000;
 }
 .stopka {
     background-color: #ffffff;
@@ -44,6 +47,6 @@
     text-align: center;
     width: 100%;
     padding: 4px;
-    color:gray;
     float:bottom;
+    color:#0000;
 }
