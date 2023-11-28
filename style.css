@@ -1,9 +1,11 @@
 .kontener{
     display:flex;
     font-family: georgia;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
 }
 .gora {
-    background-color: #0000 ;
+    background-color: #0000;
     height: 100px;
     width: 100%;
     font-size:130% ;
