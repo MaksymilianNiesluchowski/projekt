@@ -1,20 +1,18 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Rocket League</title>
 </head>
 <body>
 <section class="kontener">
-<div class="gora">
+    <div class="gora">
         <h1>Co to jest "double tap"?</h1>
     </div>
     </section>
     <section class="kontener">
-    <div class="centrum_lewo">
-        <h1>Rocekt League</h1>
-    <?php
+        <div class="centrum_lewo">
+	<h1>Rocekt League</h1>
+        <?php
+    $user = "root";
+    $host = "localhost";
+    $pass = "";
+    $db = "forum internetowe";
     $conn = new mysqli("localhost", "root", "", "forum internetowe") or die("Błąd");
     $wynik = $conn-> query("SELECT * from zagadnienia");
     if($wynik->num_rows > 0){
@@ -33,8 +31,11 @@
     <p><a href='id3.php'>Czytaj więcej o temacie 3</a></p>
     <p><a href='strona.php'>Powrót do strony głównej</a><p>
     </div>
+
+    </div>
+
     <div class="centrum">
-    <?php
+<?php
     $user = "root";
     $host = "localhost";
     $pass = "";
@@ -59,8 +60,9 @@
     $conn->close();
     ?>
     </div>
+
     <div class="centrum_prawo">
-    <from method="get" action="">
+<form method="get" action="">
         <label>Nick: <input type="text" name="nick"></br>
         <label>Komentarz: <input type="text" name="komentarze"></br>
         <input type="reset" value="Reset">
@@ -83,6 +85,6 @@
     <section class="kontener">
     <div class="stopka">
     </div>
-
+    <a href="strona.php">STRONA GŁÓWNA</a>
 </body>
 </html>
